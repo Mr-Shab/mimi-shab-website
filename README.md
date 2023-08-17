@@ -1,2 +1,2 @@
 # mimi-shab-website
-A career website for Miracle
+A career website for miracle
