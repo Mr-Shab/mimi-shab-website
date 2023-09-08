@@ -1,4 +1,5 @@
 from flask import Flask
+from flask import render_template
 # create a flask application
 app = Flask(__name__)
 
@@ -6,7 +7,7 @@ app = Flask(__name__)
 # register a route to the application
 @app.route("/")
 def hello_world():
-  return "Hello world"
+  return render_template("home.html")
 
 
 # check if it's a python script and run the app
