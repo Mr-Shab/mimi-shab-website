@@ -1,5 +1,6 @@
 from flask import Flask
 from flask import render_template, jsonify
+
 # create a flask application
 app = Flask(__name__)
 
@@ -15,7 +16,7 @@ JOBS = [
     "id": "2",
     "title": "Data Analyst",
     "location": "Los Angele, California, U.S.A.",
-    "salary": "$15,000"
+    "salary": "$17,000"
   },
 
   {
